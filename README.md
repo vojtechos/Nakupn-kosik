@@ -1,1 +1,1 @@
-# Nakupn-kosik
+# Nakupni-kosik
