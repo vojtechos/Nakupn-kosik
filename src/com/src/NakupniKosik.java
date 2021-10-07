@@ -2,7 +2,7 @@ package com.src;
 
 public class NakupniKosik {
     public static void main(String[] args){
-        String zbozi[] = {"Rajče", "Jablko", "Cibule", "Brambora", "Mléko", "Chleba", "Lovečák"};
+        String[] zbozi = {"Rajče", "Jablko", "Cibule", "Brambora", "Mléko", "Chleba", "Lovečák"};
         int ceny[] = {10, 8, 5, 7, 12, 25, 30};
         int finalniCena = 0;
 
