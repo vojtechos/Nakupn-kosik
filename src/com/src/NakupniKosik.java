@@ -20,7 +20,7 @@ public class NakupniKosik {
                     finalniCena += ceny[Integer.parseInt(args[i])];
                     return;
                 }
-                    System.out.println("Produkt nenalezen " + args[i]);
+                System.out.println("Produkt nenalezen " + args[i]);
             }
 
             System.out.println("Finální cena " + finalniCena + "Kč,-");
