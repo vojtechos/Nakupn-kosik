@@ -18,11 +18,9 @@ public class NakupniKosik {
                 if(Integer.parseInt(args[i]) <= zbozi.length-1){
                     System.out.println(args[i] + " - " + zbozi[Integer.parseInt(args[i])] + " - " + ceny[Integer.parseInt(args[i])] + "Kc.");
                     finalniCena += ceny[Integer.parseInt(args[i])];
+                    return;
                 }
-
-                else{
                     System.out.println("Produkt nenalezen " + args[i]);
-                }
             }
 
             System.out.println("Finální cena " + finalniCena + "Kč,-");
